@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0 ;
+  box-sizing: border-box;
+}
+.hero-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(../images/donation.jpg);
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+}
+.container .donate-box{
+  border: 2px solid black !important;
+}
+.container .donate-box button{
+  background-color: rgb(192, 50, 50);
+}
+.container .donate-box button:hover{
+  background-color: rgba(0, 0, 0, 0.785);
+  transition: 0.5s;
+}

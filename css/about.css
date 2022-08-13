@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero-section{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+  url(../images/friends.jpg);
+background-size: cover;
+background-position:top;
+min-height: 100vh;
+}
+.image p{
+  font-size: 15px !important;
+}
+footer{
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+  url(../images/hello.jpg);
+   min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-support h1{
+  font-size: 90px;
+}
+

@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0 ;
+  box-sizing: border-box;
+}
+.hero-section{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.4)),
+  url(../images/contact.jpg);
+  background-color: black;
+  min-height: 100vh;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.hero-section .row .card p{
+  font-size: 15px !important;
+}
+.hero-section .row .card button{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(191, 56, 56);
+}
+.hero-section .row .card button:hover{
+  background-color: black;
+  transition: 0.5s;
+}
+.submit{
+  background-color: rgb(191, 56, 56);
+  font-size:20px;
+}
+.submit:hover{
+  background-color: black;
+  transition: 0.5s;
+}
+@media (max-width:990px){
+  .hero-section{
+    /* background-position-y: -100%; */
+    background-size: 90%;
+    background-position: top;
+  }
+}

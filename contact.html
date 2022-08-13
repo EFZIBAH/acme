@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>acme</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="sticky-top">
+    <div class="container-fluid bg-dark d-flex align-items-center justify-content-center pb-3 pt-3 block ">
+      <span class="bg-danger text-white mr-2 p-2" id="covid">Annoucement</span>
+      <p class=" text-white pt-3">
+        How we're responding to covid-19
+      </p>
+    </div>
+    <nav class="navbar navbar-expand-lg pt-4 pb-4 bg-danger">
+      <div class="container">
+        <a class="navbar-brand font-weight-bolder text-white font-italic" href="index.html">ACME</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="contact.html">Contacts</a>
+            </li>
+            <li class="nav-item cart pb-2">
+              <a class="nav-link active mr-4 hover text-white bg-dark rounded-lg" aria-current="page" href="#"> <i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+              <p class="bg-white rounded-circle"></p>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="hero-section">
+    <div class="container">
+      <h1 class="font-weight-bolder pl-3 text-white pb-4 ">
+        Contact Acme Outdoors
+      </h1>
+      <div class="row pl-4">
+        <div class="card mr-4 mt-4 col-md-4 p-5 text-center">
+          <h1 class="pb-4">Contact Us
+          </h1>
+          <p class="pb-4">
+            Just want to say hi? We'd love to hear from you. We love our customers and community!
+          </p>
+          <button class="px-5 text-white border-0 rounded-lg"> Send us a message</button>
+        </div>
+        <div class="card col-md-4 p-5 text-center mr-4 mt-4">
+          <h1 class="pb-4">Get support
+          </h1>
+          <p class="pb-4">
+            Have an issue with an order or with a product you purchased from us? Fill out our support form.
+          </p>
+          <button class="px-5 text-white border-0 rounded-lg ">Contact support</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-md-4 mt-5">
+        <h1 class="font-weight-bolder">
+          Contact Us
+        </h1>
+        <p>Acme Outdoors</p>
+        <p>123 Rainy Street</p>
+        <p>Oklahoma City, OK 73129</p>
+        <p><span class="font-weight-bolder">General Inquiries</span>: (405) 555-5555</p>
+        <p><span class="font-weight-bolder">Customer Support</span>: (405) 555-5556</p>
+      </div>
+      <div class="col-md-8 mt-5">
+        <form>
+          <h1 class="font-weight-bolder">Contact Form
+            </h1>
+            <p>Send us a message and we'll get back to you as soon as we can!</p>
+            <div class="form-group">
+              <label for="">Name</label>
+              <input class="form-control border-dark" type="text" name="text" id="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="">Email Address</label>
+              <input class="form-control border-dark" type="email" name="email" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+              <label for="">Your Message</label>
+              <textarea name="text" id="text" class="form-control border-dark" placeholder="Enter your message" cols="30" rows="3"></textarea>
+            </div>
+            <input class="submit border-0 py-2 px-5 rounded-lg text-white" type="submit" value="submit">
+        </form>
+        
+      </div>
+    </div>
+  </div>
+  <footer class="darks pt-5">
+    <div class="container d-flex justify-content-between align-items-center">
+      <p class="text-white">acme</p>
+      <div class="contact-icons">
+        <i class="fa-brands fa-facebook-f mr-3"></i>
+        <i class="fa-brands fa-twitter mr-3"></i>
+        <i class="fa-brands fa-instagram mr-3"></i>
+      </div>
+    </div>
+    <blockquote class="blockquote pt-5 pb-5 text-white  text-center">Made In <span
+        class="text-danger ">Webflow</span>.&COPY;copy2020</blockquote>
+  </footer>
+
+</body>
+
+</html>

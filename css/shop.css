@@ -1,0 +1,36 @@
+*{
+  padding: 0 ;
+  margin: 0 ;
+  box-sizing: border-box ;
+}
+
+.container-fluid{
+  background-color: black !important;
+}
+.container .col-md-12{
+  position: relative;
+}
+.container >.col-md-12 img{
+  width: 100%;
+  height:60vh;
+}
+.container .col-md-12 .tent-link{
+  position: absolute;
+  bottom: 0px;
+  left: 60px;
+}
+.container .row .col-md-3 button{
+  border: 1px solid black;
+  background-color: transparent;
+}
+.container .row .col-md-3 button:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.row .card .card-img img{
+  width: 100%;
+  height: 50vh;
+
+}
