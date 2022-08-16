@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>acme</title>
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
   <header class="sticky-top">
     <div class="container-fluid bg-dark d-flex align-items-center justify-content-center pb-3 pt-3 block ">
       <span class="bg-danger text-white mr-2 p-2" id="covid">Annoucement</span>
@@ -23,57 +22,55 @@
         How we're responding to covid-19
       </p>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-lg pt-4 pb-4 bg-danger">
+      <div class="container">
+        <a class="navbar-brand font-weight-bolder text-white font-italic" href="i">ACME</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon pt-2">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active mr-4 hover text-white" aria-current="page" href="contact.html">Contacts</a>
+            </li>
+            <li class="nav-item cart pb-2">
+              <a class="nav-link active mr-4 hover text-white bg-dark rounded-lg" aria-current="page" href="#"> <i
+                  class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+              <p class="bg-white rounded-circle"></p>
+            </li>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
-
   <div class="hero-section pb-5">
-    <div class="container">
-      <div class="hero-section-text col-lg-5">
-        <h1 class="font-weight-bolder align-self-center text-xl pb-3 text-white">
+    <div class="container ">
+      <div class="hero-section-text col-md-4 "> 
+        <h1 class="font-weight-bolder align-self-center pb-3 text-white">
           Serving you since 1989.
         </h1>
         <p class="align-self-center text-white pb-2">Acme Outdoors is an outdoor and adventure shop located in the
           Boathouse District in Oklahoma City.</p>
       </div>
       <div class="pl-3">
-        <button class="px-4 py-1 rounded-lg border-white "> 
-          <a class="text-white" href="shop.html">Shop Merch</a>
-        </button>
+        <button class="px-4 py-1 rounded-lg border-white "> <a class="text-white" href="shop.html">Shop Merch</a></button>
       </div>
     </div>
   </div>
@@ -217,6 +214,7 @@
 
     </div>
   </div>
+  
   <footer class="darks pt-5">
     <div class="container d-flex justify-content-between align-items-center">
       <p class="text-white">acme</p>
@@ -229,8 +227,9 @@
     <blockquote class="blockquote pt-5 pb-5 text-white  text-center">Made In <span
         class="text-danger ">Webflow</span>.&COPY;copy2020</blockquote>
   </footer>
+
   <script src="./js/jquery.js"></script>
-  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
